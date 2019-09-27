@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:padding="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/detail_img"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/img_detail"
+            android:contentDescription="@string/poster_lomba" />
+
+        <TextView
+            android:id="@+id/detail_judul"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="@string/judulLomba"
+            android:textColor="#5E6467"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+        <TextView
+            style="@style/titleContent"
+            android:text="@string/detail"/>
+
+        <TextView
+            android:id="@+id/detail_text"
+            android:layout_marginTop="@dimen/recyclerview_margin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/disktipsiLomba"
+            android:textColor="#5E6467"
+            android:textSize="20sp" />
+        <TextView
+            style="@style/titleContent"
+            android:text="@string/syarat_dan_ketentuan"/>
+
+        <TextView
+            android:id="@+id/detail_syarat"
+            android:layout_marginTop="@dimen/recyclerview_margin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#5E6467"
+            android:textSize="20sp" />
+
+        <TextView
+            style="@style/titleContent"
+            android:text="@string/hadiah"/>
+
+        <TextView
+            android:id="@+id/detail_hadiah"
+            android:layout_marginTop="@dimen/recyclerview_margin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#5E6467"
+            android:textSize="20sp" />
+    </LinearLayout>
+</ScrollView>

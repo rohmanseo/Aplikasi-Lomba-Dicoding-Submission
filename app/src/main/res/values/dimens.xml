@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="vertical_margin" type="dimen">25dp</item>
+    <dimen name="recyclerview_margin">20dp</dimen>
+</resources>
